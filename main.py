@@ -23,7 +23,6 @@ def main():
                 print(f'Error Converting {sibs[-2].text} to IPv4 Network')
         print('IP Networks:')
         [print(f' {i.exploded}') for i in network_list]
-
     else:
         print(f'Error retrieving {list_url}\nStatus Code: {response.status_code}')
 
